@@ -2043,6 +2043,14 @@ img, video, iframe, svg {
     justify-content: center;
   }
 
+  .hero-image {
+    order: 2;
+  }
+
+  .hero-content {
+    order: 1;
+  }
+
   .premium {
     font-size: 26px;
   }

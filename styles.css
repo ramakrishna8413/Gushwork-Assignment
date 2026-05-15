@@ -50,7 +50,7 @@ body {
     display: block;
     width: 24px;
     height: 3px;
-    background-color: white;
+    background-color: #1d1d1d;
     margin: 4px 0;
     border-radius: 2px;
     transition: transform 0.3s ease, opacity 0.3s ease;

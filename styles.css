@@ -1093,9 +1093,11 @@ body {
 
 @media (max-width: 640px) {
     .nav-container {
-        flex-direction: column;
-        align-items: stretch;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         padding: 16px;
+        flex-wrap: nowrap;
     }
 
     .nav-links {

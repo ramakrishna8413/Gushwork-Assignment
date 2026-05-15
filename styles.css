@@ -2144,3 +2144,150 @@ img, video, iframe, svg {
     padding: 18px;
   }
 }
+
+
+.hero-section{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    background: white;
+}
+
+.hero-image{
+    width: 50%;
+    position: relative;
+}
+
+.hero-image img{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.arrow{
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.left{
+    left: 15px;
+}
+
+.right{
+    right: 15px;
+}
+
+.thumbs{
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.thumb{
+    width: 60px;
+    height: 60px;
+    background: #eee;
+    border-radius: 10px;
+}
+
+.thumb.active{
+    border: 2px solid blue;
+}
+
+.hero-content{
+    width: 50%;
+}
+
+.badges{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.badges span{
+    background: #f2f2f2;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.hero-content h1{
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.hero-content ul{
+    margin-bottom: 25px;
+}
+
+.hero-content ul li{
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.price-box{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.price-box p{
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.price-box h2{
+    margin-bottom: 15px;
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.tags span{
+    background: #fff3d9;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.cert-text{
+    font-size: 14px;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.quote-btn{
+    background: #2f3dbd;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.spec-btn{
+    background: white;
+    border: 1px solid #ccc;
+    padding: 14px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}

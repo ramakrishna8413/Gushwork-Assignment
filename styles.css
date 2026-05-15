@@ -2043,12 +2043,21 @@ img, video, iframe, svg {
     justify-content: center;
   }
 
+  .hero-section {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+  }
+
   .hero-image {
     order: 2;
+    width: 100%;
   }
 
   .hero-content {
     order: 1;
+    width: 100%;
   }
 
   .premium {

@@ -2028,7 +2028,9 @@ img, video, iframe, svg {
   }
 
   .nav-links {
+    display: none;
     width: 100%;
+    flex-direction: column;
   }
 
   .nav-links.open {

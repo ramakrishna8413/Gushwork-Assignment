@@ -582,13 +582,15 @@ body {
 }
 
 .second-section {
-    height: 130vh;
-    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
     background-color: #111827;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 80px 20px;
 }
 
 .technical-specs {

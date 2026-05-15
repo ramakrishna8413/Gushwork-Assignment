@@ -566,13 +566,19 @@ body {
 }
 
 .euroflex-image {
-    height: 150px;
-    width: 100vw;
+    display: inline-block;
+    width: auto;
+    max-width: 160px;
+    height: auto;
+    margin: 10px;
+}
+
+.companies-row {
     display: flex;
-    text-align: center;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    background-color: red;
+    gap: 16px;
+    margin: 20px 0;
 }
 
 .second-section {
